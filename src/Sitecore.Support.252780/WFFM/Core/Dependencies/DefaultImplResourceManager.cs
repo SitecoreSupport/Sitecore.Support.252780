@@ -8,6 +8,7 @@
   using System.Reflection;
   using System.Resources;
 
+  [Serializable]
   public class DefaultImplResourceManager : IResourceManager
   {
     private readonly ResourceManager rm;
